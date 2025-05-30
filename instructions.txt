@@ -1,0 +1,4 @@
+[LINUX INSTRUCTIONS] rename verifysum.py to something like verifysum, make it executable and then put it somewhere in PATH.
+then use it as a command 'verifysum' yay.
+
+USAGE: ./verifysum.py [FILE] [CHECKSUM TYPE] [CHECKSUM TO VERIFY]
