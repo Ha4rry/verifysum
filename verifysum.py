@@ -4,7 +4,7 @@ import os
 import sys
 import hashlib
 
-class colours: # thx blender code from stack overflow :D
+class Colours: # thx blender code from stack overflow :D
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
     OKGREEN = '\033[92m'
@@ -37,6 +37,6 @@ with open(file_path, "rb") as f:
 
 
 if real_checksum == provided_checksum:
-    print(f"{colours.OKGREEN}Checksums match. Yay!{colours.ENDC}")
+    print(f"{Colours.OKGREEN}Checksums match. Yay!{Colours.ENDC}")
 else:
-    print(f"{colours.FAIL}Checksums do not match. Oh No.{colours.ENDC}")
+    print(f"{Colours.FAIL}Checksums do not match. Oh No.{Colours.ENDC}")
